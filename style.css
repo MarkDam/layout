@@ -5,7 +5,7 @@ body {
 
 .container {
   list-style: none;
-  width: 600px;
+  width: 830px;
   margin-left: 170px;
 
   display: -webkit-box;
@@ -29,24 +29,6 @@ body {
   color: white;
   font-weight: bold;
   text-align: left;
-}
-
-.container1 {
-  list-style: none;
-  width: 300px;
-  margin-left: 70px;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-  position: absolute;
-  left: 700px;
-  bottom: 190px;
 }
 
 header {
@@ -91,6 +73,10 @@ a {
   padding: 10px;
 }
 
+.img3 {
+  margin: 6px;
+}
+
 img {
   width: 240px;
   height: 130px;
@@ -107,8 +93,50 @@ h1 {
   line-height: 60px;
 }
 
-@media screen and (max-width: 400px) {
-    body {
-        background-color: green;
-    }
+@media screen and (max-width: 470px) {
+
+  .container {
+    list-style: none;
+    width: 330px;
+    margin-left: 55px;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .img1 {
+    float: left;
+    padding: 10px;
+  }
+
+}
+
+@media screen and (min-width: 470px) AND (max-width: 900px) {
+
+  .container {
+    list-style: none;
+    width: 760px;
+    margin-left: 60px;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .img1 {
+    float: left;
+    padding: 10px;
+  }
+
 }
